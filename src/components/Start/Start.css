@@ -1,0 +1,21 @@
+.start {
+    margin: 100px;
+    color: beige;
+    font-size: 25px;
+}
+
+.start-button {
+    margin: 50px;
+    border: none; 
+    background-color: beige;
+    padding: 10px;
+    transition: transform 0.25s;
+}
+
+.start-button:hover {
+    transform: scale(1.1);
+}
+
+.start-button:active {
+    transform: scale(0.7)
+}

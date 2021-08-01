@@ -1,0 +1,21 @@
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+.grid {
+   margin: 100px;
+   display: grid; 
+   grid-gap: 10px;
+   grid-template-columns: repeat(3, 50px);
+
+}
+
+/* Source  https://stackoverflow.com/questions/8595909/how-to-completely-disable-any-mouse-click */
+.overlay {
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   right: 0;
+   top: 0;
+}
